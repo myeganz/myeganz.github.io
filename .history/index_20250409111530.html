@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=League+Script" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/button.css">
+
+  <style>
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-left">
+      <img src="images/me.png" alt="My Avatar">
+      <h1 id="gt-text"><span id="g">G</span><span id="t">T</span></h1>
+    </div>
+
+    <div class="hamburger" id="hamburger">
+      <span>-</span>
+      <span>-</span>
+      <span>-</span>
+    </div>
+
+    <!-- Nav Menu -->
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+  <div class="container">
+    <section id="about">
+      <span id="about-name">
+        <span class="text">Hi, I'm Gani Tamim</span>
+        <span class="flip-front">Hi, I'm Gani Tamim</span>
+        <span class="flip-back">A web developer</span>
+      </span>
+      <div id="about-desc">
+        <div class="sign">
+          <div class="neon-blue">
+            <span id="fade">
+              Solving
+            </span>
+            <span class="neon-purple" id="trav">
+              problems.
+            </span>
+          </div>
+          <div class="neon-blue">
+            <span id="fade">
+              Continuously
+            </span>
+            <span class="neon-purple" id="trav">
+              exploring technologies.
+            </span>
+          </div>
+          <div class="neon-blue">
+            <span class="neon-purple" id="trav">
+              Drive
+            </span>
+            <span id="fade">
+              innovation.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="container"> -->
+    <section id="projects">
+      <div class="text-3d">Projects</div>
+      <div class="card">
+        <div class="grid-container">
+          <div class="project-thumbnail-container">
+            <img src="images/landing.png" alt="Project Thumbnail" class="project-thumbnail"
+              onmouseover="this.src='images/landing.gif';" onmouseout="this.src='images/landing.png';">
+          </div>
+          <div class="text-container">
+            <h2>School Landing Page</h2>
+            <p>
+              The school landing page serves as a centralized hub for all school-related information, ensuring
+              everything is easily accessible in one place.
+            </p>
+            <p>
+              Unlike a static page, this platform allows users to update
+              their data through an integrated portal.
+            </p>
+          </div>
+          <div class="card__texture"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="grid-container">
+          <div class="project-thumbnail-container">
+            <img src="images/pos.png" alt="Project Thumbnail" class="project-thumbnail"
+              onmouseover="this.src='images/pos.gif';" onmouseout="this.src='images/pos.png';">
+          </div>
+          <div class="text-container">
+            <h2>Smart POS System</h2>
+            <p>
+              Smart POS System is a payment solution designed for schools, utilizing RFID cards and fingerprint
+              authentication for secure and seamless transactions.
+            </p>
+            <p> This system ensures organized, cashless payments, enhancing security and efficiency in school
+              environments.
+            </p>
+          </div>
+          <div class="card__texture"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="grid-container">
+          <div class="project-thumbnail-container">
+            <img src="images/school.png" alt="Project Thumbnail" class="project-thumbnail"
+              onmouseover="this.src='images/school.gif';" onmouseout="this.src='images/school.png';">
+          </div>
+          <div class="text-container">
+            <h2>School Payment System</h2>
+            <p>
+              School Payment System simplifies bill management for schools, allowing them to track payment progress
+              efficiently.
+            </p>
+            <p>
+              While enabling parents to easily pay and monitor their kids fees in one integrated system.
+            </p>
+          </div>
+          <div class="card__texture"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="grid-container">
+          <div class="project-thumbnail-container">
+            <img src="images/attendance.png" alt="Project Thumbnail" class="project-thumbnail"
+              onmouseover="this.src='images/attendance.gif';" onmouseout="this.src='images/attendance.png';">
+          </div>
+          <div class="text-container">
+            <h2>Attendance Tracking with ADMS Machines</h2>
+            <p>
+              A real-time attendance tracking system integrated with ADMS attendance machines.
+            </p>
+            <p>
+              It connects directly to the server, ensuring accurate and up-to-date attendance records while simplifying
+              the reporting process for schools.
+            </p>
+          </div>
+          <div class="card__texture"></div>
+        </div>
+      </div>
+    </section>
+    <!-- </div> -->
+  </div>
+  <footer>
+    <div class="grid-container" id="contact">
+      <div class="grid-item left">
+        <p>Gani Tamim</p>
+        <p>A web developer focused on solving problems, exploring new technologies, and driving innovation.</p>
+      </div>
+      <div class="grid-item right">
+        <p>Reach Me</p>
+        <p>
+          <a href="https://wa.me/62895333972415" class="whatsapp-button" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="mailto:gani.tamim.gt@gmail.com" class="email-button">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <span style="font-size:12px">&copy; 2025 Made by </span><span><b>Gani Tamim</b></span>
+  </footer>
+  <script>
+    //header
+    const nameElement = document.getElementById("gt-text");
+    const nameElement2 = document.getElementById("g");
+    const nameElement3 = document.getElementById("t");
+
+    const name2 = "Gani"; // Full word
+    const name3 = "Tamim"; // Full word
+
+    let isAnimating = false; // Prevent rapid triggers
+    let isAnimating2 = false; // Prevent rapid triggers
+    let isHover = 0; // Prevent rapid triggers
+
+    function typeEffect(element, text, speed) {
+      return new Promise((resolve) => {
+        let i = 1;
+
+        const interval = setInterval(() => {
+          if (i < text.length) {
+            element.innerHTML += text.charAt(i);
+            i++;
+          } else {
+            clearInterval(interval);
+            resolve(); // Notify when done
+          }
+        }, speed);
+      });
+    }
+
+    function eraseEffect(element, text, speed) {
+      return new Promise((resolve) => {
+        isAnimating2 = true;
+        let i = text.length;
+
+        const interval = setInterval(() => {
+          if (i > 1) {
+            element.innerHTML = text.substring(0, i - 1);
+            i--;
+          } else {
+            clearInterval(interval);
+            resolve(); // Notify when done
+          }
+        }, speed);
+      });
+    }
+
+    // Wait for each effect to finish before starting the next
+    async function runTypeEffect() {
+      isAnimating = true;
+      await typeEffect(nameElement2, name2, 200);
+      nameElement3.style.transform = "translate(10px, 0px)";
+      await typeEffect(nameElement3, name3, 200);
+    }
+
+    async function runEraseEffect() {
+      await eraseEffect(nameElement3, name3, 200);
+      nameElement3.style.transform = "translate(0px, 0px)";
+      await eraseEffect(nameElement2, name2, 200);
+
+      isAnimating = false;
+      isAnimating2 = false;
+      isHover = 0;
+    }
+
+    nameElement.addEventListener("mouseenter", () => {
+      if (isAnimating) return; // Stop if animation is running
+      isHover = 1;
+      runTypeEffect();
+    });
+
+    nameElement.addEventListener("mouseleave", () => {
+      if (isAnimating2 || isHover === 2) return; // Stop if animation is running
+
+      isHover = 2;
+      setTimeout(() => {
+        runEraseEffect();
+      }, 2000);
+    });
+
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('show');
+
+      // Toggle icon between ☰ and ✖
+      if (hamburger.textContent === '☰') {
+        hamburger.textContent = '✖';
+      } else {
+        hamburger.textContent = '☰';
+      }
+    });
+  </script>
+</body>
+
+</html>

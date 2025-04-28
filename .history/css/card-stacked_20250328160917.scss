@@ -1,0 +1,15 @@
+.card-stacked {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 0 -0.5rem 1rem rgba(0 0 0 / 0.15);
+  border-radius: 4px;
+}
+
+@for $i from 1 through 4 {
+  .card:nth-child(#{$i}) {
+    top: $i + rem;
+    rotate: $i + deg;
+  }
+}
